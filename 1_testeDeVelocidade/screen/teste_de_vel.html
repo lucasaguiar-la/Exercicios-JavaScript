@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Teste de Velocidade</title>
+  </head>
+  <body onload="abrir()">
+    <div id="container">
+      <h1>Teste de Velocidade</h1>
+      <p>Diga abaixo o nome e a velocidade dos veículos:</p>
+      <div id="resultado">
+        <label for="caixa">Digite o nome do primeiro veículo:</label>
+        <input
+          type="text"
+          name="caixa"
+          id="box1"
+          placeholder="ex: Carro, Moto, Markito_2330..."
+        />
+        <br />
+        <label for="valor">Qual a velocidade dele?</label>
+        <input type="number" name="vel" id="vel1" /> <span>Km/h</span>
+        <br />
+        <br />
+        <hr />
+        <br />
+        <label for="caixa">Digite o nome do segundo veículo:</label>
+        <input
+          type="text"
+          name="caixa"
+          id="box2"
+          placeholder="ex: Carro, Moto, Cláudia-88..."
+        />
+        <br />
+        <label for="valor">Qual a velocidade dele?</label>
+        <input type="number" name="vel" id="vel2" /> <span>Km/h</span>
+      </div>
+      <input
+        type="button"
+        value="Verificar"
+        class="btn"
+        onclick="verificar()"
+      />
+      <div class="js_res">R E S U L T A D O</div>
+      <div class="js_btn">
+        <img src="../image/770495.png" alt="Botão de Atualizar Página" />
+      </div>
+    </div>
+
+    <script src="../javascript/codigo.js"></script>
+  </body>
+</html>
