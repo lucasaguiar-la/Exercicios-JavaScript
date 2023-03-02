@@ -1,6 +1,6 @@
 # Teste de Velocidade
 
-<img src="https://user-images.githubusercontent.com/108820269/222458534-faead815-dcd0-48b8-a937-c4fb2046ed25.png">
+<img src="https://user-images.githubusercontent.com/108820269/222458534-faead815-dcd0-48b8-a937-c4fb2046ed25.png" width="750px">
 
 # Descrição
 
