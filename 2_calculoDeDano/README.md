@@ -1,8 +1,8 @@
 # Calculando Dano
 
-<img src="https://user-images.githubusercontent.com/108820269/222740829-0078c9a8-108a-4148-a666-fb9b2d4f19ba.png" width="">
+<img src="https://user-images.githubusercontent.com/108820269/222740829-0078c9a8-108a-4148-a666-fb9b2d4f19ba.png" width="700px">
 
-<img src="https://user-images.githubusercontent.com/108820269/222741230-9590160a-4223-4da6-b7e7-d96beed44edb.png" width="">
+<img src="https://user-images.githubusercontent.com/108820269/222741230-9590160a-4223-4da6-b7e7-d96beed44edb.png" width="550px">
 
 # Descrição
 
