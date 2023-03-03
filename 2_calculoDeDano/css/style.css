@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Teko", sans-serif;
+}
+
+body {
+  padding-top: 5rem;
+  min-height: 100vh;
+  background-image: url(../image/background.jpg);
+  background-size: cover;
+  background-color: #e0ff71;
+}
+
+#container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 500px;
+  height: 550px;
+  border-radius: 20px;
+  background-color: rgba(217, 28, 255, 0.6588235294);
+  box-shadow: 5px 5px 2px #000000;
+}
+#container h1 {
+  text-align: center;
+  text-shadow: 2px 2px 1px #ffffff;
+  line-height: 10px;
+}
+#container h1 span {
+  color: #bd0101;
+}
+#container h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  text-shadow: 2px 2px 1px #ffffff;
+}
+#container #form {
+  display: flex;
+  justify-content: space-between;
+}
+#container #form img {
+  width: 30px;
+  filter: drop-shadow(4px 3px 1px black);
+}
+#container #form .hero_card {
+  margin: 0 auto;
+}
+#container #form .hero_card .us {
+  width: 25px;
+}
+#container #form .hero_card #hero_name,
+#container #form .hero_card #hero_hit {
+  margin-left: 5px;
+  padding: 7px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 3px 3px 1px #000000;
+}
+#container #form .char_card {
+  margin: 0 auto;
+}
+#container #form .char_card #char_name,
+#container #form .char_card #char_life,
+#container #form .char_card #char_def {
+  margin-right: 5px;
+  padding: 7px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 3px 3px 1px #000000;
+}
+#container #form .char_card .shield {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+#container #js_res {
+  width: 100%;
+  height: 90px;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+#container #js_res button {
+  max-height: 50px;
+  font-weight: 700;
+  color: black;
+  width: 6rem;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 3px 3px 1px #000000;
+  text-shadow: 2px 2px 1px white;
+  background-color: rgba(255, 255, 255, 0.4666666667);
+  transition: 0.4s;
+}
+#container #js_res button:hover {
+  background-color: rgba(33, 255, 33, 0.6235294118);
+  text-shadow: none;
+}
+#container #js_res #result {
+  width: 19rem;
+  height: 14rem;
+  padding-top: 10px;
+  font-weight: 400;
+  text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.631372549);
+  font-size: 15pt;
+  font-style: italic;
+  text-align: center;
+  background-color: rgba(224, 255, 113, 0.4117647059);
+  border-radius: 10px;
+  box-shadow: 3px 3px 1px #000000;
+}
+#container #js_res #result .c_red {
+  color: rgba(224, 0, 0, 0.7803921569);
+  font-weight: 700;
+}
+#container .re_btn {
+  display: flex;
+  justify-content: end;
+  padding-top: 3rem;
+  margin-top: 3.5rem;
+  transition: 0.1s;
+}
+#container .re_btn img {
+  cursor: pointer;
+  filter: drop-shadow(2px 3px 1px white);
+}
+#container .re_btn img:hover {
+  filter: drop-shadow(3px 3px 2px white);
+}
+
+/*# sourceMappingURL=style.css.map */

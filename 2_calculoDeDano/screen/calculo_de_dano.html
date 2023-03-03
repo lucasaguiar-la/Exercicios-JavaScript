@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>ComBot</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Com<span>Bot</span></h1>
+      <h2>O combate dos Bots!</h2>
+      <form action="#" id="form">
+        <div class="hero_card">
+          <img src="../image/hero_name.png" alt="Herói" />
+          <input
+            type="text"
+            name="hero"
+            placeholder="Nome do Heroi"
+            id="hero_name"
+          />
+          <br />
+          <img src="../image/hero_hit.png" alt="Dano do herói" class="us" />
+          <input
+            type="number"
+            name="hero"
+            placeholder="Pontos de Dano"
+            id="hero_hit"
+          />
+        </div>
+        <br />
+        <hr />
+        <br />
+        <div class="char_card">
+          <input
+            type="text"
+            name="char"
+            placeholder="Nome do Inimigo"
+            id="char_name"
+          />
+          <img src="../image/char_name.png" alt="Inimigo" />
+          <br />
+          <input
+            type="number"
+            name="life"
+            placeholder="Pontos de Vida"
+            id="char_life"
+          />
+          <img src="../image/char_life.png" alt="Vida" />
+          <br />
+          <input
+            type="number"
+            name="defence"
+            placeholder="Pontos de Defesa"
+            id="char_def"
+          />
+          <img src="../image/char_def.png" alt="Defesa" />
+          <div class="shield">
+            <h3>Possuí escudo?</h3>
+            <input type="radio" name="check" value="sim" checked />
+            <label for="radio">Sim</label>
+            <input type="radio" name="check" value="não" />
+            <label for="radio">Não</label>
+          </div>
+        </div>
+      </form>
+      <div id="js_res">
+        <p id="result">
+          <span class="res_span"
+            >1º: Coloque um nome no seu <span class="c_red">herói</span>; <br />
+            2º: Defina os <span class="c_red">ponto de dano</span>; <br />
+            3º: Após, dê um <span class="c_red">nome</span>,
+            <span class="c_red">pontos de vida</span> e de
+            <span class="c_red">defesa</span> para seu adversário;
+            <br />
+            4º: Diga se o seu oponenete possuí
+            <span class="c_red">escudo</span>;
+            <br />
+            5º: Aperte em '<span class="c_red">FIGHT</span>' para ver o
+            resultado!</span
+          >
+        </p>
+        <button
+          type="button"
+          value="LUTAR!"
+          class="btn_action"
+          onclick="fight()"
+        >
+          FIGHT!
+        </button>
+      </div>
+      <div class="re_btn" onclick="reload()">
+        <img
+          src="../image/reload.png"
+          alt="Botão de recarregar página"
+          class="btn_img"
+        />
+      </div>
+    </div>
+
+    <script src="../javascript/main.js"></script>
+  </body>
+</html>
