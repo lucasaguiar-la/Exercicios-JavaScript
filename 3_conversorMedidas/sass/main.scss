@@ -1,0 +1,90 @@
+//Fonte
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap");
+
+//Formatação geral da página
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  padding: 5rem 0;
+  min-height: 100vh;
+  background-image: url(../image/backgroundImg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  span {
+    padding: 0 20px;
+  }
+}
+
+//Formatação do container principal
+#container {
+  margin: 0 auto;
+  width: 500px;
+  height: 430px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffca85;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #000000a1;
+  position: relative;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 80px;
+    bottom: -1rem;
+    right: -2.7rem;
+    background-image: url(../image/toolImg.png);
+  }
+
+  h1 {
+    padding-top: 3rem;
+    font-size: 20pt;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    width: 470px;
+    padding: 5px 0 30px 0;
+    font-size: 14pt;
+    font-weight: 400;
+  }
+
+  .bars {
+    display: flex;
+    margin-left: 3rem;
+  }
+
+  #number {
+    width: 70px;
+  }
+
+  #result {
+    height: 159px;
+    width: 418px;
+    margin: 20px 40px;
+    text-align: center;
+    border-radius: 20px;
+    filter: drop-shadow(3.5px 3.5px 5px #0000009c);
+    background-image: url(../image/paperBackground.png);
+  }
+
+  #btn {
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3.5px 3.5px 3px #0000007e;
+    transition: 0.4s;
+    &:hover {
+      background-color: #5252529c;
+    }
+  }
+}

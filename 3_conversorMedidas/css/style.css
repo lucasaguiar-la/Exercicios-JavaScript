@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  padding: 5rem 0;
+  min-height: 100vh;
+  background-image: url(../image/backgroundImg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body span {
+  padding: 0 20px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 500px;
+  height: 430px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffca85;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.631372549);
+  position: relative;
+}
+#container::after {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 80px;
+  bottom: -1rem;
+  right: -2.7rem;
+  background-image: url(../image/toolImg.png);
+}
+#container h1 {
+  padding-top: 3rem;
+  font-size: 20pt;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#container h2 {
+  width: 470px;
+  padding: 5px 0 30px 0;
+  font-size: 14pt;
+  font-weight: 400;
+}
+#container .bars {
+  display: flex;
+  margin-left: 3rem;
+}
+#container #number {
+  width: 70px;
+}
+#container #result {
+  height: 159px;
+  width: 418px;
+  margin: 20px 40px;
+  text-align: center;
+  border-radius: 20px;
+  filter: drop-shadow(3.5px 3.5px 5px rgba(0, 0, 0, 0.6117647059));
+  background-image: url(../image/paperBackground.png);
+}
+#container #btn {
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3.5px 3.5px 3px rgba(0, 0, 0, 0.4941176471);
+  transition: 0.4s;
+}
+#container #btn:hover {
+  background-color: rgba(82, 82, 82, 0.6117647059);
+}
+
+/*# sourceMappingURL=style.css.map */

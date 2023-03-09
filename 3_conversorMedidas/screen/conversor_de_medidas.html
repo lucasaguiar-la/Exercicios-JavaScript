@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Conversor de Medidas</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Conversor de Medidas</h1>
+      <h2>Coloque uma medida em metros e escolha uma unidade de medida:</h2>
+      <div class="bars">
+        <input type="number" name="number" placeholder="metros" id="number" />
+        <span>para</span>
+        <select name="measure" id="measure">
+          <option value="mm">milímetro (mm)</option>
+          <option value="cm">centímetro (cm)</option>
+          <option value="dm">decímetro (dm)</option>
+          <option value="dam">decâmetro (dam)</option>
+          <option value="hm">hectômetro (hm)</option>
+          <option value="km">quilômetro (km)</option>
+        </select>
+      </div>
+      <div id="result"></div>
+      <input type="button" value="Verificar" id="btn" onclick="calculate()" />
+    </div>
+
+    <script src="../javascript/index.js"></script>
+  </body>
+</html>
