@@ -7,4 +7,4 @@
 # Descrição
 
 Um conversor de medidas simples. Você digita a medida desejada (em metros) e seleciona a opção na unidade de medida que desejar.
-Clique em "VERFICAR" para saber o resultado.
+Clique em "VERIFICAR" para saber o resultado.
