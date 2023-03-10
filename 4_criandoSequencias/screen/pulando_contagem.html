@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <title>Pulando Números</title>
+  </head>
+  <body>
+    <h1>CRIE SUA SEQUÊNCIA</h1>
+    <container id="container">
+      <div class="numbers">
+        <label for="start">Início:</label>
+        <input
+          type="number"
+          name="start"
+          id="start"
+          placeholder="Insira o primeiro número."
+        />
+        <label for="end">Final:</label>
+        <input
+          type="number"
+          name="end"
+          id="end"
+          placeholder="Insira o último número."
+        />
+        <label for="skip">Quantos números pulará:</label>
+        <input
+          type="number"
+          name="skip"
+          id="skip"
+          placeholder="Ex: 1, 2, 4, 8 etc..."
+        />
+        <button onclick="start()">EXECUTAR</button>
+      </div>
+      <div id="res">
+        <p>Preparando a sequência...</p>
+      </div>
+    </container>
+    <h2>&copy; Lucas2023Aguiar</h2>
+
+    <script src="../javascript/main.js"></script>
+  </body>
+</html>
