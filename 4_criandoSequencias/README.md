@@ -1,6 +1,6 @@
 # Montando Sequências
 
-<img src="https://user-images.githubusercontent.com/108820269/224389024-c22261f1-17d2-48bd-88bc-188f1972e661.png" width="750px">
+<img src="https://user-images.githubusercontent.com/108820269/224389024-c22261f1-17d2-48bd-88bc-188f1972e661.png" width="650px">
 
 # Descrição
 
