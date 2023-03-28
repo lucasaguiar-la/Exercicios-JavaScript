@@ -1,0 +1,18 @@
+Fila de espera:
+
+1º Fazer uma lista (array) com o nome dos paciêntes;
+
+2º Fazer menu interativo que mostra o nome dos paciêntes:
+
+	1º - Matheus
+	2º - João
+	3º - Monique
+	4º - Juditi
+	5º - Antunes
+
+3º Esse menu deve conter também as opções de:
+
+[ 1 ] Novo paciênte (*prompt para captar nome e deixar no último lugar da fila)
+[ 2 ] Atender paciênte (retira o primeiro nome da fila e mostra o nome em *alert na tela)
+[ 3 ] Sair (o programa só para de funcionar através dessa opção)
+
