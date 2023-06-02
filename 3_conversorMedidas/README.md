@@ -1,4 +1,4 @@
-# Teste de Velocidade
+# Conversor de medidas
 
 <img src="https://user-images.githubusercontent.com/108820269/224183193-4fad6707-eaae-4796-8ace-643425d4e510.png" width="750px">
 
