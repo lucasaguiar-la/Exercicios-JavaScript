@@ -21,7 +21,7 @@ https://lucas-aguiar-la.github.io/Exercicios-JavaScript/0_outrosExercicios/menu_
 (Tabuada) <br/>
 https://lucas-aguiar-la.github.io/Exercicios-JavaScript/0_outrosExercicios/tabuada/tabuada.html
 
-(Trocando temas / Light e Dark)
+(Trocando temas / Light e Dark) <br/>
 https://lucas-aguiar-la.github.io/Exercicios-JavaScript/0_outrosExercicios/DOM_darkTheme/index.html
 
 ## Descrição
