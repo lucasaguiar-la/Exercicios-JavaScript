@@ -1,0 +1,9 @@
+.isLight {
+  color: #292929;
+  background-color: #f0f8ff;
+}
+
+.isDark {
+  color: #f0f8ff;
+  background-color: #292929;
+}
